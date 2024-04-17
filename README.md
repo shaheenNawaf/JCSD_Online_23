@@ -26,7 +26,7 @@ A system where the employees can view a list of available items in their invento
 ## Website Features
  <ol>
   <li>• <a href="#">Dashboard for the Current Inventory</a></li>
-    <li>• <a href="#">Add, view and modify Item availability</a></li>
+    <li>• <a href="#">Add, view, and modify Item availability</a></li>
     <li>• <a href="#">Account profiles and control</a></li>
     <li>• <a href="#">Secure user log-in system</a></li>
     <li>• <a href="#">Set and Track Orders for Items</a></li>
