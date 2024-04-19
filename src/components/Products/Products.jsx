@@ -1,11 +1,13 @@
+// Can add more info above table
+
 import React from 'react';
-import { Link } from "react-router-dom";
+import TableContainer from './TableProduct/TableContainer'
 
 export default function Products() {
     return (
       <>
         <div id="detail">
-            <p>THIS IS PRODUCTS</p>
+            <TableContainer />
         </div>
       </>
     );

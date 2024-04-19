@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link } from "react-router-dom";
+import TableContainer from './TableCart/TableContainer';
 
 export default function Products() {
     return (
       <>
         <div id="detail">
-            <p>THIS IS CARTS</p>
+          <TableContainer />
         </div>
       </>
     );

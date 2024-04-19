@@ -1,10 +1,10 @@
 import "./index.css";
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Layout from "./components/Layout";
-import Products from "./components/Products";
-import Cart from "./components/Cart";
+import Products from "./components/Products/Products";
+import Cart from "./components/Cart/Cart";
 
 const router = createBrowserRouter([
   {
