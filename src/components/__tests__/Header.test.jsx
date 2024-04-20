@@ -1,14 +1,14 @@
 // Header.test.jsx
 
 import { render } from '@testing-library/react';
-import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
-import Header from '../Sidebar/Header'; // Adjust the import path as needed
-import { expect } from 'chai'; // Import expect from Chai
+import { BrowserRouter as Router } from 'react-router-dom';
+import Header from '../Sidebar/Header';
+import { expect } from 'chai'; 
 
 describe('Header Component', () => {
   it('renders without crashing', () => {
     render(
-      <Router> {/* Wrap the Header component with BrowserRouter */}
+      <Router> {}
         <Header />
       </Router>
     );
@@ -16,13 +16,13 @@ describe('Header Component', () => {
 
   it('renders search input correctly', () => {
     const { getByPlaceholderText } = render(
-      <Router> {/* Wrap the Header component with BrowserRouter */}
+      <Router> {}
         <Header />
       </Router>
     );
     const searchInput = getByPlaceholderText('Search...');
-    expect(searchInput).to.exist; // Use Chai's exist assertion
+    expect(searchInput).to.exist;
   });
 
-  // Add more test cases as needed
+
 });

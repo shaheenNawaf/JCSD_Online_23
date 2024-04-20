@@ -1,7 +1,5 @@
-// Login.test.jsx
-
 import { render } from '@testing-library/react';
-import Login from '../Login/Login'; // Adjust the import path as needed
+import Login from '../Login/Login';
 
 describe('Login Component', () => {
   it('renders without crashing', () => {
@@ -14,5 +12,5 @@ describe('Login Component', () => {
     expect(usernameInput).toBeTruthy();
   });
 
-  // Add more test cases as needed
+
 });
