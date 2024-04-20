@@ -5,8 +5,10 @@ import { createBrowserRouter, RouterProvider} from "react-router-dom";
 import Layout from "./components/Layout";
 import Products from "./components/Products/Products";
 import Cart from "./components/Cart/Cart";
+import Login from "./components/Login/Login";
 
 const router = createBrowserRouter([
+  
   {
     path: "/",
     element: <Layout />,
@@ -21,6 +23,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path:"login",
+    element: <Login />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
