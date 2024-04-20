@@ -2,14 +2,12 @@ import React from 'react';
 import { FcMindMap } from "react-icons/fc";
 import { Link, useLocation } from "react-router-dom";
 import { HiOutlineCube, HiShoppingCart, HiOutlineLogout } from "react-icons/hi";
-import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
+import { BrowserRouter as Router } from 'react-router-dom'; 
 
 export default function Sidebar() {
-  // Get the current location
   const location = useLocation();
 
   return (
-    <Router> {/* Wrap your component with Router */}
       <div className='bg-neutral-900 w-60 p-3 flex flex-col text-white'>
         
         <div className='flex items-center gap-2 px-1 py-3'>
@@ -41,6 +39,4 @@ export default function Sidebar() {
           </button>
         </div>
       </div>
-    </Router>
-  );
-}
+  );}
