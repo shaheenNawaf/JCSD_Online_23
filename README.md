@@ -14,23 +14,23 @@ A system where the employees can view a list of available items in their invento
 
 ## Website Benefits
  <ol>
-  <li>• <a href="#">Automate parts of the business process</a></li>
-    <li>• <a href="#">Minimize risk of data loss</a></li>
-    <li>• <a href="#">Minimize human error</a></li>
-    <li>• <a href="#">Increase business efficiency</a></li>
-    <li>• <a href="#">Secure user log-in system</a></li>
+  <li><a href="#">Automate parts of the business process</a></li>
+    <li><a href="#">Minimize risk of data loss</a></li>
+    <li><a href="#">Minimize human error</a></li>
+    <li><a href="#">Increase business efficiency</a></li>
+    <li><a href="#">Secure user log-in system</a></li>
   </ol>
 
 <br>
 
 ## Website Features
  <ol>
-  <li>• <a href="#">Dashboard for the Current Inventory</a></li>
-    <li>• <a href="#">Add, view, and modify Item availability</a></li>
-    <li>• <a href="#">Account profiles and control</a></li>
-    <li>• <a href="#">Secure user log-in system</a></li>
-    <li>• <a href="#">Set and Track Orders for Items</a></li>
-    <li>• <a href="#">Stock Notifications</a></li>
+  <li><a href="#">Dashboard for the Current Inventory</a></li>
+    <li><a href="#">Add, view, and modify Item availability</a></li>
+    <li><a href="#">Account profiles and control</a></li>
+    <li><a href="#">Secure user log-in system</a></li>
+    <li><a href="#">Set and Track Orders for Items</a></li>
+    <li><a href="#">Stock Notifications</a></li>
   </ol>
 
 <br>
